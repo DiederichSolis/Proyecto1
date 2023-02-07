@@ -1,0 +1,9 @@
+;DIEDERICH SOLIS
+;DIEGO GARCÍA
+;MÓNICA SALVATIERRA
+
+
+(defun FaC (F); se establece una funcion para las conversiones
+    (print "Los grados a centigrados es: ")
+  (/ (- F 32) 1.8)) ; se hace la operacion es decir la conversion, se ejecuta primero el parentesis y despues lo externo
+(print (FaC 20)); manda a llamar la funcion y se ingresa el parametro que este caso es el grado que se representa como f
